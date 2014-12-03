@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.wtc"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".EmperorActivity"
+            android:label="@string/title_activity_emperor" >
+        </activity>
+        <activity
+            android:name=".AdanRActivity"
+            android:label="@string/title_activity_adan_r" >
+        </activity>
+        <activity
+            android:name=".AlexaActivity"
+            android:label="@string/title_activity_alexa" >
+        </activity>
+        <activity
+            android:name=".AlexabounActivity"
+            android:label="@string/title_activity_alexaboun" >
+        </activity>
+    </application>
+
+</manifest>

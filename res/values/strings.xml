@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">WTC</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_emperor">Emperor</string>
+    <string name="title_activity_adan_r">A &amp; R</string>
+    <string name="title_activity_alexa">Alexa</string>
+    <string name="title_activity_alexaboun">Alexa</string>
+
+</resources>
